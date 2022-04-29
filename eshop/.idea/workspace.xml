@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf60a8c7-ec53-4b67-97c2-298568109ad6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eshop/auth_eshop/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eshop/auth_eshop/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eshop/core/mixins.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/auth/activate_email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/auth/activation_invalid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/auth/activation_need.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/auth/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/auth/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eshop/auth_eshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/auth_eshop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eshop/auth_eshop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/auth_eshop/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7128959a-ece7-41a7-b263-0ff7dc53095d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7128959a-ece7-41a7-b263-0ff7dc53095d/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7128959a-ece7-41a7-b263-0ff7dc53095d/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7128959a-ece7-41a7-b263-0ff7dc53095d/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7128959a-ece7-41a7-b263-0ff7dc53095d/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7a71eb04-ae91-439f-8619-db4caa6afc96.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7a71eb04-ae91-439f-8619-db4caa6afc96.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +42,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -58,18 +52,28 @@
   </component>
   <component name="RunManager">
     <configuration name="eshop" type="Python.DjangoServer" factoryName="Django server">
-      <module name="eshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="eshop.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\program files V2\Coding\projects\homework\python-web-basics\project2\eshop\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
       <option name="host" value="" />
@@ -91,6 +95,8 @@
       <option name="presentableId" value="Default" />
       <updated>1651224777081</updated>
       <workItem from="1651224794032" duration="9687000" />
+      <workItem from="1651239467268" duration="151000" />
+      <workItem from="1651239640451" duration="728000" />
     </task>
     <servers />
   </component>
@@ -107,5 +113,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
