@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1957f5b2-f78f-4701-b77c-09dcc5aaa5d9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/eshop/.idea/dataSources/7128959a-ece7-41a7-b263-0ff7dc53095d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/.idea/dataSources/7128959a-ece7-41a7-b263-0ff7dc53095d/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/.idea/dataSources/7128959a-ece7-41a7-b263-0ff7dc53095d/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/.idea/dataSources/7128959a-ece7-41a7-b263-0ff7dc53095d/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/.idea/dataSources/7128959a-ece7-41a7-b263-0ff7dc53095d/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/.idea/dataSources/7a71eb04-ae91-439f-8619-db4caa6afc96.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/.idea/dataSources/7a71eb04-ae91-439f-8619-db4caa6afc96.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="28TTY5NYBi8vGISGlbAMCFowuYg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/eshop" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1957f5b2-f78f-4701-b77c-09dcc5aaa5d9" name="Changes" comment="" />
+      <created>1651239620016</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651239620016</updated>
+      <workItem from="1651239621355" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
