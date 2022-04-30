@@ -1,10 +1,11 @@
 from django.contrib.auth import views as auth_views
+from django.contrib.auth import mixins as auth_mixin
 from django.contrib.auth import get_user_model
 from django.contrib.auth.models import User
 from django.contrib.auth.tokens import default_token_generator
 from django.contrib.sites.shortcuts import get_current_site
 from django.core.mail import EmailMessage
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.template.loader import render_to_string
 from django.utils.encoding import force_bytes
 from django.utils.http import urlsafe_base64_encode
@@ -43,6 +44,10 @@ class LoginView(auth_views.LoginView):
     template_name = 'auth/login.html'
     form_class = LoginForm
     redirect_field_name = 'next'
+
+
+class LogoutView(auth_mixin.LoginRequiredMixin, auth_views.LogoutView):
+    pass
 
 
 def activate(request, uidb64, token):
