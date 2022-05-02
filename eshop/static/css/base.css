@@ -1,0 +1,9 @@
+
+
+.main-header nav a{
+    font-size: 18px;
+}
+
+.main-header nav a:hover{
+    font-weight: bold;
+}
