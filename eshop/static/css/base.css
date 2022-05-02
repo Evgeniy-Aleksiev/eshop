@@ -1,7 +1,6 @@
-
-
 .main-header nav a{
     font-size: 18px;
+    padding: 0;
 }
 
 .main-header nav a:hover{
