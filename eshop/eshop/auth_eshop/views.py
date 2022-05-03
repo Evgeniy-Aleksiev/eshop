@@ -7,6 +7,7 @@ from django.contrib.sites.shortcuts import get_current_site
 from django.core.mail import EmailMessage
 from django.shortcuts import render, redirect
 from django.template.loader import render_to_string
+from django.urls import reverse_lazy
 from django.utils.encoding import force_bytes
 from django.utils.http import urlsafe_base64_encode
 from django.views import generic as views
@@ -43,7 +44,12 @@ class RegisterView(views.CreateView):
 class LoginView(auth_views.LoginView):
     template_name = 'auth/login.html'
     form_class = LoginForm
-    redirect_field_name = 'next'
+
+    def get_success_url(self):
+        next = self.request.GET.get('next', None)
+        if next:
+            return next
+        return reverse_lazy('index')
 
 
 class LogoutView(auth_mixin.LoginRequiredMixin, auth_views.LogoutView):

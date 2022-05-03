@@ -1,4 +1,4 @@
-from django.contrib.auth import get_user_model
+from django.contrib.auth import get_user_model, authenticate
 from django.contrib.auth import forms
 
 from eshop.core.mixins import BootstrapFormMixin

@@ -5,15 +5,17 @@ UserModel = get_user_model()
 
 
 class Feedback(models.Model):
-    email = models.EmailField()
+    TEXT_MAX_LENGTH = 300
 
-    details = models.TextField()
+    details = models.TextField(
+        max_length=TEXT_MAX_LENGTH,
+    )
 
     date = models.DateField(
         auto_now_add=True,
     )
 
-    user_feedback = models.ForeignKey(
+    user = models.ForeignKey(
         UserModel,
         on_delete=models.CASCADE,
     )

@@ -11,4 +11,4 @@ class FeedbackForm(BootstrapFormMixin, forms.ModelForm):
 
     class Meta:
         model = Feedback
-        fields = '__all__'
+        fields = ('details', )
