@@ -9,7 +9,7 @@ from django.shortcuts import render, redirect
 from django.template.loader import render_to_string
 from django.urls import reverse_lazy
 from django.utils.encoding import force_bytes
-from django.utils.http import urlsafe_base64_encode
+from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 from django.views import generic as views
 
 from eshop.auth_eshop.forms import RegisterForm, LoginForm
@@ -24,6 +24,7 @@ class RegisterView(views.CreateView):
 
     def form_valid(self, form):
         user = form.save(commit=False)
+        user.is_verified = False
         user.save()
         current_site = get_current_site(self.request)
         mail_subject = 'Activate your account.'
@@ -58,7 +59,7 @@ class LogoutView(auth_mixin.LoginRequiredMixin, auth_views.LogoutView):
 
 def activate(request, uidb64, token):
     try:
-        uid = urlsafe_base64_encode(uidb64).decode()
+        uid = urlsafe_base64_decode(uidb64).decode()
         user = UserModel.objects.get(pk=uid)
     except(TypeError, ValueError, OverflowError, User.DoesNotExist):
         user = None

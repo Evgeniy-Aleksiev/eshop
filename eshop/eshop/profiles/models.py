@@ -25,7 +25,8 @@ class Profile(models.Model):
         validators=(
             MinLengthValidator(FIRST_NAME_MIN_LENGTH),
             validate_only_letters,
-        )
+        ),
+        blank=True,
     )
 
     last_name = models.CharField(
@@ -33,7 +34,8 @@ class Profile(models.Model):
         validators=(
             MinLengthValidator(LAST_NAME_MIN_LENGTH),
             validate_only_letters,
-        )
+        ),
+        blank=True,
     )
 
     user = models.OneToOneField(
