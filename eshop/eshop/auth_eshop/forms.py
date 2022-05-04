@@ -1,6 +1,7 @@
 from django.contrib.auth import get_user_model, authenticate
 from django.contrib.auth import forms
 
+
 from eshop.core.mixins import BootstrapFormMixin
 
 UserModel = get_user_model()
@@ -27,3 +28,9 @@ class LoginForm(BootstrapFormMixin, forms.AuthenticationForm):
 
     def save(self):
         return self.user
+
+
+class UserUpdateForm(AddBootstrapFormControlMixin, ModelForm):
+    class Meta:
+        model = UserModel
+        fields = ('email', )

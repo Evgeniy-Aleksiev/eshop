@@ -1,3 +1,4 @@
+from django.contrib import auth, messages
 from django.contrib.auth import views as auth_views
 from django.contrib.auth import mixins as auth_mixin
 from django.contrib.auth import get_user_model
@@ -45,12 +46,7 @@ class RegisterView(views.CreateView):
 class LoginView(auth_views.LoginView):
     template_name = 'auth/login.html'
     form_class = LoginForm
-
-    def get_success_url(self):
-        next = self.request.GET.get('next', None)
-        if next:
-            return next
-        return reverse_lazy('index')
+    redirect_field_name = 'next'
 
 
 class LogoutView(auth_mixin.LoginRequiredMixin, auth_views.LogoutView):

@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block page_content %}
+
+    <div class="back-button">
+        <a href="{% url 'index' %}" class="btn btn-outline-primary">Home</a>
+    </div>
+    <div class="card" style="width: 648px;">
+        <img src="{% static 'images/logo.png' %}" class="card-img-top" alt="profile">
+        <div class="card-body">
+            <h3 class="card-title">Profile Info</h3>
+            <h5 class="card-text">Name: {{ profile.full_name }}</h5>
+            <h5 class="card-text">Mobile number: {{ profile.mobile_number }}</h5>
+            <h5 class="card-text">Email: {{ user.email }}</h5>
+
+{#            <a href="{% url 'profile edit' object.user.id%}">#}
+                <button class="btn"><i class="fa fa-pencil"> Profile edit</i></button>
+{#            </a>#}
+{#            <a href="{% url 'profile delete' object.user.id %}">#}
+                <button class="btn"><i class="fa fa-trash"> Delete profile</i></button>
+{#            </a>#}
+        </div>
+    </div>
+
+{% endblock %}

@@ -2,7 +2,7 @@ from django.contrib.auth import get_user_model
 from django.core.validators import MinLengthValidator
 from django.db import models
 
-from eshop.core.validators import validate_only_letters
+from eshop.core.validators import validate_only_letters, validate_only_numbers
 
 UserModel = get_user_model()
 
@@ -38,8 +38,20 @@ class Profile(models.Model):
         blank=True,
     )
 
+    mobile_number = models.CharField(
+        max_length=9,
+        validators=(
+            MinLengthValidator(8),
+            validate_only_numbers,
+        )
+    )
+
     user = models.OneToOneField(
         UserModel,
         on_delete=models.CASCADE,
         primary_key=True
     )
+
+    @property
+    def full_name(self):
+        return f'{self.first_name} {self.last_name}'

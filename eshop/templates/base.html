@@ -37,7 +37,7 @@
                     </li>
                     {% if request.user.is_authenticated %}
                         <li class="nav-item">
-                            <a href="{% url 'profile update' %}" class="nav-link text-white">Profile</a>
+                            <a href="{% url 'profile' request.user.id %}" class="nav-link text-white">Profile</a>
                         </li>
                     {% else %}
                         <li class="nav-item">
