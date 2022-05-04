@@ -129,6 +129,10 @@ MEDIA_ROOT = BASE_DIR / 'mediafiles'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+LOGIN_URL = '/auth/login/'
+
+LOGIN_REDIRECT_URL = 'index'
+
 AUTH_USER_MODEL = 'auth_eshop.EShopUser'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
