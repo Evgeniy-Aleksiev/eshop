@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a3882b9-82b1-49b9-aadb-54b5d9334ce0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fc8521e8-dc98-4047-9bb6-6f3b6cc8d677.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fc8521e8-dc98-4047-9bb6-6f3b6cc8d677.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eshop/auth_eshop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/auth_eshop/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eshop/core/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/core/signals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eshop/core/validators.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/core/validators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eshop/profiles/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/profiles/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/auth_eshop/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/auth_eshop/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eshop/profiles/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/profiles/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eshop/profiles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/profiles/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/auth/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/auth/profile-update.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../project/sofia_bank" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -115,7 +110,8 @@
       <workItem from="1651251189102" duration="1854000" />
       <workItem from="1651331714603" duration="14516000" />
       <workItem from="1651498570717" duration="17769000" />
-      <workItem from="1651662551358" duration="6738000" />
+      <workItem from="1651662551358" duration="7092000" />
+      <workItem from="1651740284573" duration="3790000" />
     </task>
     <servers />
   </component>
@@ -144,7 +140,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/eshop/profiles/views.py</url>
-          <line>14</line>
+          <line>10</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>

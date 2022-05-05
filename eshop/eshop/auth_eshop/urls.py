@@ -8,3 +8,5 @@ urlpatterns = [
     path('logout/', views.LogoutView.as_view(), name='logout user'),
     path('activate/<uidb64>/<token>/', views.activate, name='activate'),
 ]
+
+from ..core.signals import *

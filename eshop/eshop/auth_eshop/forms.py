@@ -29,8 +29,3 @@ class LoginForm(BootstrapFormMixin, forms.AuthenticationForm):
     def save(self):
         return self.user
 
-
-class UserUpdateForm(AddBootstrapFormControlMixin, ModelForm):
-    class Meta:
-        model = UserModel
-        fields = ('email', )
