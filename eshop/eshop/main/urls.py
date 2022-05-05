@@ -6,6 +6,5 @@ urlpatterns = [
     path('', views.HomePageView.as_view(), name='index'),
     path('about-us/', views.AboutUsView.as_view(), name='about us'),
     path('contacts/', views.ContactsView.as_view(), name='contacts'),
-    path('feedback/', views.FeedbackView.as_view(), name='feedback'),
-    path('feedback/message/', views.FeedbackMessageView.as_view(), name='feedback message'),
+    path('contacts/message/', views.ContactsMessageView.as_view(), name='contact message'),
 ]

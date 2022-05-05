@@ -32,9 +32,6 @@
                     <li class="nav-item">
                         <a href="{% url 'contacts' %}" class="nav-link text-white">Contacts</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="{% url 'feedback' %}" class="nav-link text-white">Feedback</a>
-                    </li>
                     {% if request.user.is_authenticated %}
                         <li class="nav-item">
                             <a href="{% url 'profile' request.user.id %}" class="nav-link text-white">Profile</a>
@@ -47,7 +44,7 @@
                 </ul>
                 <ul class="nav justify-content-end">
                     {% if request.user.is_authenticated %}
-                        <span class="navbar-text">Welcome, {{ user }} </span>
+                        <span class="navbar-text">Welcome, {{ profile.username }} </span>
                         <li class="nav-item">
                             <a href="{% url 'logout user' %}?next=/auth/login/" class="nav-link text-danger">Sign out</a>
                         </li>

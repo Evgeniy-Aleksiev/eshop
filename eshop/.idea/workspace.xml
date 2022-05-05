@@ -3,10 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="9a3882b9-82b1-49b9-aadb-54b5d9334ce0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/fc8521e8-dc98-4047-9bb6-6f3b6cc8d677.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fc8521e8-dc98-4047-9bb6-6f3b6cc8d677.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fc8521e8-dc98-4047-9bb6-6f3b6cc8d677/storage_v2/_src_/database/eshop.2yDFBQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fc8521e8-dc98-4047-9bb6-6f3b6cc8d677/storage_v2/_src_/database/eshop.2yDFBQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eshop/auth_eshop/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/auth_eshop/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/main/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/main/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/main/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/main/migrations/0002_alter_feedback_details.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/main/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eshop/profiles/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/profiles/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eshop/profiles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/profiles/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/feedback_message.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/contact_message.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/profiles/show-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profiles/show-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/profiles/update-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profiles/update-profile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +50,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -111,7 +123,7 @@
       <workItem from="1651331714603" duration="14516000" />
       <workItem from="1651498570717" duration="17769000" />
       <workItem from="1651662551358" duration="7092000" />
-      <workItem from="1651740284573" duration="3790000" />
+      <workItem from="1651740284573" duration="10733000" />
     </task>
     <servers />
   </component>
@@ -135,12 +147,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="django-line">
           <url>file://$PROJECT_DIR$/templates/base.html</url>
-          <line>39</line>
+          <line>36</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/eshop/profiles/views.py</url>
-          <line>10</line>
+          <line>11</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>

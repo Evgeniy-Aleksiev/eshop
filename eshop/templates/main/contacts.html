@@ -1,4 +1,26 @@
 {% extends 'base.html' %}
 {% block page_content %}
+    <h1 class="text-center">Contact Us</h1>
+    <div class="google-maps mb-100">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1
+        d2932.698070297894!2d23.319640715685846!3d42.68893762226075!2m3!1f0
+        !2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa850d9e8985bb%3A0xee
+        c6371cbf04dd38!2sul.%20%22Angel%20Kanchev%22%2043%2C%201000%20Sofia%
+        20Center%2C%20Sofia!5e0!3m2!1sen!2sbg!4v1651752471916!5m2!1sen!2sbg"
+                width="600" height="450" style="border:0;" allowfullscreen=""
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade">
 
+        </iframe>">
+    </div>
+    <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+        <form action="{% url 'contacts' %}" method="post">
+            {% csrf_token %}
+            {{ form }}
+            <button class="btn btn-primary mt-2" type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="col-lg-3"></div>
+    </div>
 {% endblock %}

@@ -1,14 +1,14 @@
 from django import forms
 
 from eshop.core.mixins import BootstrapFormMixin
-from eshop.main.models import Feedback
+from eshop.main.models import ContactUs
 
 
-class FeedbackForm(BootstrapFormMixin, forms.ModelForm):
+class ContactUsForm(BootstrapFormMixin, forms.ModelForm):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self._init_bootstrap_form_controls()
 
     class Meta:
-        model = Feedback
-        fields = ('details', )
+        model = ContactUs
+        fields = '__all__'

@@ -13,9 +13,9 @@
             <h5 class="card-text">Mobile number: {{ profile.mobile_number }}</h5>
             <h5 class="card-text">Email: {{ user.email }}</h5>
 
-{#            <a href="{% url 'profile edit' object.user.id%}">#}
+            <a href="{% url 'profile edit' object.user.id %}">
                 <button class="btn"><i class="fa fa-pencil"> Profile edit</i></button>
-{#            </a>#}
+            </a>
 {#            <a href="{% url 'profile delete' object.user.id %}">#}
                 <button class="btn"><i class="fa fa-trash"> Delete profile</i></button>
 {#            </a>#}

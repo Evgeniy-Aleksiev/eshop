@@ -1,4 +1,5 @@
 from django.contrib.auth import mixins as auth_mixin, get_user_model
+from django.urls import reverse_lazy
 
 from django.views import generic as views
 
@@ -19,3 +20,8 @@ class ProfileShowView(auth_mixin.LoginRequiredMixin, views.DetailView):
 
 class ProfileEditView(auth_mixin.LoginRequiredMixin, views.UpdateView):
     model = Profile
+    template_name = 'profiles/update-profile.html'
+    fields = ('first_name', 'last_name', 'mobile_number', )
+
+    def get_success_url(self):
+        return reverse_lazy('profile', kwargs={'pk': self.object.user.id})
