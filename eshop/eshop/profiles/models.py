@@ -26,6 +26,7 @@ class Profile(models.Model):
             MinLengthValidator(FIRST_NAME_MIN_LENGTH),
             validate_only_letters,
         ),
+        null=True,
         blank=True,
     )
 
@@ -35,6 +36,7 @@ class Profile(models.Model):
             MinLengthValidator(LAST_NAME_MIN_LENGTH),
             validate_only_letters,
         ),
+        null=True,
         blank=True,
     )
 
@@ -43,7 +45,9 @@ class Profile(models.Model):
         validators=(
             MinLengthValidator(8),
             validate_only_numbers,
-        )
+        ),
+        null=True,
+        blank=True,
     )
 
     user = models.OneToOneField(

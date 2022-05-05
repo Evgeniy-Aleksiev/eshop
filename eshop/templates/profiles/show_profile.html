@@ -9,16 +9,16 @@
         <img src="{% static 'images/logo.png' %}" class="card-img-top" alt="profile">
         <div class="card-body">
             <h3 class="card-title">Profile Info</h3>
-            <h5 class="card-text">Name: {{ profile.full_name }}</h5>
-            <h5 class="card-text">Mobile number: {{ profile.mobile_number }}</h5>
+            <h5 class="card-text">Name: {% if profile.first_name %}{{ profile.full_name }}{% endif %}</h5>
+            <h5 class="card-text">Mobile number: {% if profile.mobile_number %}{{ profile.mobile_number }}{% endif %}</h5>
             <h5 class="card-text">Email: {{ user.email }}</h5>
 
             <a href="{% url 'profile edit' object.user.id %}">
                 <button class="btn"><i class="fa fa-pencil"> Profile edit</i></button>
             </a>
-{#            <a href="{% url 'profile delete' object.user.id %}">#}
+            <a href="{% url 'profile delete' object.user.id %}">
                 <button class="btn"><i class="fa fa-trash"> Delete profile</i></button>
-{#            </a>#}
+            </a>
         </div>
     </div>
 
