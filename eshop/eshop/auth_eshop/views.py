@@ -5,6 +5,7 @@ from django.contrib.auth import get_user_model
 from django.contrib.auth.models import User
 from django.contrib.auth.tokens import default_token_generator
 from django.contrib.sites.shortcuts import get_current_site
+from django.core.exceptions import ValidationError
 from django.core.mail import EmailMessage
 from django.shortcuts import render, redirect
 from django.template.loader import render_to_string
@@ -48,6 +49,24 @@ class LoginView(auth_views.LoginView):
     form_class = LoginForm
     redirect_field_name = 'next'
 
+    def post(self, request, *args, **kwargs):
+        username = request.POST['username']
+        password = request.POST['password']
+
+        if username and password:
+            user = auth.authenticate(username=username, password=password)
+
+            if user:
+                if user.is_verified:
+                    auth.login(request, user)
+                    return redirect('index')
+                messages.error(request, 'Account is not verified,please check your email')
+                return render(request, 'auth/login.html')
+            messages.error(request, 'Invalid credentials, try again.')
+            return render(request, 'auth/login.html')
+
+        messages.error(request, 'Please fill all fields.')
+        return render(request, 'auth/login.html')
 
 class LogoutView(auth_mixin.LoginRequiredMixin, auth_views.LogoutView):
     pass
