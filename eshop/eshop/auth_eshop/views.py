@@ -68,6 +68,7 @@ class LoginView(auth_views.LoginView):
         messages.error(request, 'Please fill all fields.')
         return render(request, 'auth/login.html')
 
+
 class LogoutView(auth_mixin.LoginRequiredMixin, auth_views.LogoutView):
     pass
 
