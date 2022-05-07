@@ -29,6 +29,7 @@ ESHOP_APPS = (
     'eshop.auth_eshop',
     'eshop.main',
     'eshop.profiles',
+    'eshop.products',
 )
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + ESHOP_APPS

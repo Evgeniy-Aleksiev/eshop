@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="9a3882b9-82b1-49b9-aadb-54b5d9334ce0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eshop/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/products/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/main/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/products/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/products/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/profiles/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/profiles/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../project/sofia_bank" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../workshop-project/petstagram" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -118,7 +122,7 @@
       <workItem from="1651498570717" duration="17769000" />
       <workItem from="1651662551358" duration="7092000" />
       <workItem from="1651740284573" duration="22743000" />
-      <workItem from="1651855818325" duration="4081000" />
+      <workItem from="1651855818325" duration="6527000" />
     </task>
     <servers />
   </component>
