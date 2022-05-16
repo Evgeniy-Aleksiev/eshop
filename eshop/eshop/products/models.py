@@ -25,6 +25,9 @@ class Category(models.Model):
     class Meta:
         ordering = ('product_type', )
 
+    def __str__(self):
+        return self.product_type
+
 
 class Product(models.Model):
     PRODUCT_NAME_MAX_LEN = 100

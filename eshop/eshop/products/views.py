@@ -1,3 +1,9 @@
 from django.shortcuts import render
+from django.views import generic as views
 
-# Create your views here.
+from eshop.products.models import Product
+
+
+class ProductsView(views.ListView):
+    model = Product
+    template_name = 'products/product.html'
